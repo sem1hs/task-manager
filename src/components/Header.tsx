@@ -1,9 +1,9 @@
-import React from "react";
-
 const Header = () => {
   return (
-    <header>
-      <h1>Welcome Header</h1>
+    <header className="bg-gray-400">
+      <nav className="px-8 py-6 block">
+        <h1 className="text-2xl">Task Manager</h1>
+      </nav>
     </header>
   );
 };

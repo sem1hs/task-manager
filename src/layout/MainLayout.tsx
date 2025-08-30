@@ -3,10 +3,12 @@ import { Outlet } from "@tanstack/react-router";
 
 const MainLayout = () => {
   return (
-    <div>
+    <>
       <Header />
-      <Outlet />
-    </div>
+      <main>
+        <Outlet />
+      </main>
+    </>
   );
 };
 
